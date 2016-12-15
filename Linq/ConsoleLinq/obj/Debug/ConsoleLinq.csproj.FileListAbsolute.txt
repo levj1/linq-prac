@@ -1,0 +1,6 @@
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\bin\Debug\ConsoleLinq.exe.config
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\bin\Debug\ConsoleLinq.exe
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\bin\Debug\ConsoleLinq.pdb
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\obj\Debug\ConsoleLinq.csprojResolveAssemblyReference.cache
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\obj\Debug\ConsoleLinq.exe
+C:\Users\James Leveille\Documents\GitHub\linq\Linq\ConsoleLinq\obj\Debug\ConsoleLinq.pdb
