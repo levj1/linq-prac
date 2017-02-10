@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace ConsoleLinq
 {
@@ -10,16 +11,18 @@ namespace ConsoleLinq
     {
         static void Main(string[] args)
         {
-            string[] greeting = { "hello world", "linq", "hello linq", "hello apress" };
-            var items =
-                from s in greeting
-                where s.StartsWith("linq")
-                select s;
+            string cs = @"Data Source=T1000\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True";
+            //Northwnd db = new Northwnd(cs);
 
-            foreach (var item in items)
+            NorthwindDataContext db = new NorthwindDataContext();
+            var query = from c in db.Customers
+                        select c.City;
+
+            foreach (var cust in query)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(cust);
             }
+            
 
             Console.ReadLine();
         }
